@@ -1,0 +1,16 @@
+# Private, git-ignored per this portfolio's convention -- learning files, not published
+WORKFLOW.md
+PROJECT_NARRATIVE.md
+INTERVIEW_QA.md
+INTERPRETATION.md
+
+# Blank/hint teaching scaffold -- the clean, filled-in notebook (sars_cov2_spike_mhci_epitope_prediction.ipynb) is what gets pushed
+mhci_epitope_prediction_sars_cov2_spike.ipynb
+
+# Local uploaded practice copy, kept locally only
+mhci_epitope_prediction_sars_cov2_spike_hands_on_effort_tried_practiced_.ipynb
+
+# Standard
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
