@@ -77,7 +77,8 @@ sufficient — real processing, transport, and T-cell receptor recognition all a
 
 Three real issues shaped this build. IEDB's real Query-API silently caps an unpaginated response at exactly
 10,000 rows — confirmed via a real `Range`-header count-only request showing the true total was 29,528 — the
-same silent-truncation pattern already seen in an earlier project (#26, cBioPortal). While fixing this, a
+same silent-truncation pattern already seen in an earlier project (the Biomedical Data Warehouse &
+Analytical SQL project, cBioPortal). While fixing this, a
 second real API quirk surfaced: this specific IEDB deployment doesn't support the standard PostgREST `offset`
 parameter at all, silently returning empty results rather than erroring, discovered only by testing it
 directly. And the real validation filtering specified in this project's own design (MHC class I only, a real
